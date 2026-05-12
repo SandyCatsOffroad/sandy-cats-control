@@ -1,0 +1,134 @@
+{
+  "events": [
+    {
+      "id": "e-001",
+      "title": "Weekly leadership sync",
+      "date": "2026-05-12T15:00:00",
+      "time": "10:00 AM",
+      "type": "meeting",
+      "location": "Zoom"
+    },
+    {
+      "id": "e-002",
+      "title": "Distributor contract signing",
+      "date": "2026-05-13",
+      "type": "deadline"
+    },
+    {
+      "id": "e-003",
+      "title": "Q2 budget lock",
+      "date": "2026-05-15",
+      "type": "deadline"
+    },
+    {
+      "id": "e-004",
+      "title": "Summer line photoshoot",
+      "date": "2026-05-18T14:00:00",
+      "time": "9:00 AM",
+      "type": "content",
+      "location": "Studio 4 · Brooklyn"
+    },
+    {
+      "id": "e-005",
+      "title": "Influencer campaign kickoff",
+      "date": "2026-05-19",
+      "type": "launch"
+    },
+    {
+      "id": "e-006",
+      "title": "Investor coffee — Atlas Capital",
+      "date": "2026-05-14T19:00:00",
+      "time": "2:00 PM",
+      "type": "meeting"
+    },
+    {
+      "id": "e-007",
+      "title": "Memorial Day ad creative refresh",
+      "date": "2026-05-21",
+      "type": "ads"
+    },
+    {
+      "id": "e-008",
+      "title": "Spring sale ad set launches",
+      "date": "2026-05-22",
+      "type": "ads"
+    },
+    {
+      "id": "e-009",
+      "title": "Instagram Reels: behind the scenes",
+      "date": "2026-05-20T17:00:00",
+      "time": "12:00 PM",
+      "type": "social"
+    },
+    {
+      "id": "e-010",
+      "title": "Memorial Day weekend launch",
+      "date": "2026-05-23",
+      "type": "launch"
+    },
+    {
+      "id": "e-011",
+      "title": "All-hands monthly",
+      "date": "2026-05-29T17:00:00",
+      "time": "12:00 PM",
+      "type": "meeting"
+    },
+    {
+      "id": "e-012",
+      "title": "Fulfillment cutover",
+      "date": "2026-05-26",
+      "type": "deadline"
+    },
+    {
+      "id": "e-013",
+      "title": "Quarterly inventory count",
+      "date": "2026-06-01",
+      "type": "deadline"
+    },
+    {
+      "id": "e-014",
+      "title": "Father's Day campaign goes live",
+      "date": "2026-06-08",
+      "type": "launch"
+    },
+    {
+      "id": "e-015",
+      "title": "Mid-year board meeting",
+      "date": "2026-06-11T18:00:00",
+      "time": "1:00 PM",
+      "type": "meeting"
+    },
+    {
+      "id": "e-016",
+      "title": "Blog: 'How we source ethical materials'",
+      "date": "2026-05-16",
+      "type": "content"
+    },
+    {
+      "id": "e-017",
+      "title": "Newsletter — May edition",
+      "date": "2026-05-27",
+      "type": "content"
+    },
+    {
+      "id": "e-018",
+      "title": "TikTok collab with @petbeans",
+      "date": "2026-05-25T20:00:00",
+      "time": "3:00 PM",
+      "type": "social"
+    },
+    {
+      "id": "e-019",
+      "title": "Vendor 1:1 — Manufacturing partner B",
+      "date": "2026-05-11T18:00:00",
+      "time": "1:00 PM",
+      "type": "meeting"
+    },
+    {
+      "id": "e-020",
+      "title": "Returns policy go-live",
+      "date": "2026-05-05",
+      "type": "launch"
+    }
+  ]
+}
