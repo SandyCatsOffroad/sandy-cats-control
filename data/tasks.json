@@ -1,0 +1,120 @@
+{
+  "tasks": [
+    {
+      "id": "t-001",
+      "title": "Finalize Q2 marketing budget",
+      "description": "Reconcile remaining Q1 spend, lock allocation across ads, content, and influencer collabs for Q2.",
+      "priority": "high",
+      "status": "in_progress",
+      "category": "Finance",
+      "due_date": "2026-05-15",
+      "assignee": "Maya"
+    },
+    {
+      "id": "t-002",
+      "title": "Sign new wholesale distributor contract",
+      "description": "Legal review complete. Need executive signature and counter-signature by EOW.",
+      "priority": "high",
+      "status": "open",
+      "category": "Operations",
+      "due_date": "2026-05-13",
+      "assignee": "Jordan"
+    },
+    {
+      "id": "t-003",
+      "title": "Refresh hero photography for summer line",
+      "description": "Shot list approved. Studio booked for the 18th. Confirm wardrobe + props.",
+      "priority": "medium",
+      "status": "open",
+      "category": "Creative",
+      "due_date": "2026-05-18",
+      "assignee": "Priya"
+    },
+    {
+      "id": "t-004",
+      "title": "Switch fulfillment to ShipBob West region",
+      "description": "Migration plan signed off. Cutover scheduled for late May.",
+      "priority": "medium",
+      "status": "in_progress",
+      "category": "Operations",
+      "due_date": "2026-05-26",
+      "assignee": "Devon"
+    },
+    {
+      "id": "t-005",
+      "title": "Quarterly inventory count",
+      "priority": "low",
+      "status": "open",
+      "category": "Operations",
+      "due_date": "2026-06-01",
+      "assignee": "Sam"
+    },
+    {
+      "id": "t-006",
+      "title": "Customer NPS survey — May wave",
+      "description": "Send to past 90-day buyers. Compare against Feb wave.",
+      "priority": "medium",
+      "status": "open",
+      "category": "Customer",
+      "due_date": "2026-05-20",
+      "assignee": "Priya"
+    },
+    {
+      "id": "t-007",
+      "title": "Onboard new junior designer",
+      "description": "Laptop provisioned. Schedule week-1 1:1s, tooling access, and brand book walkthrough.",
+      "priority": "medium",
+      "status": "in_progress",
+      "category": "People",
+      "due_date": "2026-05-11",
+      "assignee": "Maya"
+    },
+    {
+      "id": "t-008",
+      "title": "Replace expired SSL certificate",
+      "priority": "high",
+      "status": "done",
+      "category": "Engineering",
+      "due_date": "2026-05-08",
+      "assignee": "Devon"
+    },
+    {
+      "id": "t-009",
+      "title": "Publish updated returns policy",
+      "priority": "low",
+      "status": "done",
+      "category": "Customer",
+      "due_date": "2026-05-05",
+      "assignee": "Jordan"
+    },
+    {
+      "id": "t-010",
+      "title": "Draft mid-year board update",
+      "description": "Pull KPI summary, channel performance, and roadmap for June board meeting.",
+      "priority": "high",
+      "status": "open",
+      "category": "Finance",
+      "due_date": "2026-06-10",
+      "assignee": "Maya"
+    },
+    {
+      "id": "t-011",
+      "title": "Vet manufacturing partner B",
+      "description": "Reference checks, factory audit report, sample run for backup supplier.",
+      "priority": "low",
+      "status": "in_progress",
+      "category": "Operations",
+      "due_date": "2026-06-15",
+      "assignee": "Sam"
+    },
+    {
+      "id": "t-012",
+      "title": "Renew business insurance",
+      "priority": "medium",
+      "status": "open",
+      "category": "Finance",
+      "due_date": "2026-05-30",
+      "assignee": "Jordan"
+    }
+  ]
+}
