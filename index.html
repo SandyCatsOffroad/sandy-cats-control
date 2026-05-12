@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0f172a" />
+<title>Sandy Cats Mission Control</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%90%B1%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand__logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2 4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6l-8-4Z"/>
+        </svg>
+      </div>
+      <div class="brand__text">
+        <div class="brand__title">Sandy Cats</div>
+        <div class="brand__subtitle">Mission Control</div>
+      </div>
+    </div>
+    <div class="topbar__actions">
+      <div class="status" id="status" title="Data status">
+        <span class="status__dot"></span>
+        <span class="status__label">Syncing…</span>
+      </div>
+      <button class="icon-btn" id="refreshBtn" aria-label="Refresh data" title="Refresh">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10"/>
+          <polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" data-tab="tasks" aria-selected="true">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+      <span>Tasks</span>
+    </button>
+    <button class="tab" role="tab" data-tab="calendar" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span>Calendar</span>
+    </button>
+    <button class="tab" role="tab" data-tab="seo" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>SEO</span>
+    </button>
+    <button class="tab" role="tab" data-tab="ads" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a4 4 0 0 0 4 4h1l4 4V3L8 7H7a4 4 0 0 0-4 4Z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg>
+      <span>Ads</span>
+    </button>
+    <button class="tab" role="tab" data-tab="social" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/></svg>
+      <span>Social</span>
+    </button>
+  </nav>
+
+  <main class="content">
+
+    <!-- TASKS -->
+    <section class="panel" id="panel-tasks" role="tabpanel" aria-labelledby="tab-tasks">
+      <div class="panel__header">
+        <div>
+          <h1 class="panel__title">Tasks</h1>
+          <p class="panel__subtitle" id="tasksSubtitle">Loading…</p>
+        </div>
+        <div class="panel__filters" id="tasksFilters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="open">Open</button>
+          <button class="chip" data-filter="in_progress">In Progress</button>
+          <button class="chip" data-filter="done">Done</button>
+        </div>
+      </div>
+
+      <div class="stats" id="tasksStats"></div>
+
+      <div class="cards" id="tasksList"></div>
+    </section>
+
+    <!-- CALENDAR -->
+    <section class="panel hidden" id="panel-calendar" role="tabpanel" aria-labelledby="tab-calendar">
+      <div class="panel__header">
+        <div>
+          <h1 class="panel__title" id="calendarTitle">Calendar</h1>
+          <p class="panel__subtitle" id="calendarSubtitle">Loading…</p>
+        </div>
+        <div class="panel__filters">
+          <div class="seg" role="group" aria-label="Calendar view">
+            <button class="seg__btn is-active" data-view="month">Month</button>
+            <button class="seg__btn" data-view="week">Week</button>
+            <button class="seg__btn" data-view="day">Day</button>
+          </div>
+          <div class="nav-btns">
+            <button class="icon-btn" id="calPrev" aria-label="Previous">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="icon-btn" id="calToday" aria-label="Today" title="Today">Today</button>
+            <button class="icon-btn" id="calNext" aria-label="Next">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="calendar" id="calendarBody"></div>
+      <div class="calendar-legend" id="calendarLegend"></div>
+    </section>
+
+    <!-- SEO -->
+    <section class="panel hidden" id="panel-seo" role="tabpanel" aria-labelledby="tab-seo">
+      <div class="panel__header">
+        <div>
+          <h1 class="panel__title">SEO</h1>
+          <p class="panel__subtitle" id="seoSubtitle">Loading…</p>
+        </div>
+      </div>
+
+      <div class="stats" id="seoStats"></div>
+
+      <h2 class="section-title">Keyword Rankings</h2>
+      <div class="table-wrap">
+        <table class="table" id="seoKeywordsTable">
+          <thead>
+            <tr>
+              <th>Keyword</th>
+              <th class="num">Rank</th>
+              <th class="num">Δ</th>
+              <th class="num hide-sm">Volume</th>
+              <th class="hide-sm">Intent</th>
+            </tr>
+          </thead>
+          <tbody id="seoKeywordsBody"></tbody>
+        </table>
+      </div>
+
+      <h2 class="section-title">SEO Tasks</h2>
+      <div class="cards" id="seoTasksList"></div>
+
+      <h2 class="section-title">Content Calendar</h2>
+      <div class="cards cards--compact" id="seoContentList"></div>
+    </section>
+
+    <!-- ADS -->
+    <section class="panel hidden" id="panel-ads" role="tabpanel" aria-labelledby="tab-ads">
+      <div class="panel__header">
+        <div>
+          <h1 class="panel__title">Ads</h1>
+          <p class="panel__subtitle" id="adsSubtitle">Loading…</p>
+        </div>
+      </div>
+
+      <div class="stats" id="adsStats"></div>
+
+      <h2 class="section-title">Campaigns</h2>
+      <div class="cards" id="adsCampaigns"></div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="panel hidden" id="panel-social" role="tabpanel" aria-labelledby="tab-social">
+      <div class="panel__header">
+        <div>
+          <h1 class="panel__title">Social Media</h1>
+          <p class="panel__subtitle" id="socialSubtitle">Loading…</p>
+        </div>
+        <div class="panel__filters" id="socialPlatforms"></div>
+      </div>
+
+      <div class="stats" id="socialStats"></div>
+
+      <h2 class="section-title">Scheduled & Published Posts</h2>
+      <div class="cards" id="socialPosts"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span id="lastUpdated">—</span>
+    <span class="dot">·</span>
+    <span>Sandy Cats Mission Control</span>
+  </footer>
+</div>
+
+<template id="emptyTpl">
+  <div class="empty">
+    <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+    <p>No items yet.</p>
+  </div>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
