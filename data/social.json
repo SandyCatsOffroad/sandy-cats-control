@@ -1,103 +1,112 @@
 {
   "posts": [
     {
-      "id": "s-001",
-      "platform": "instagram",
-      "campaign": "Spring Sale",
-      "status": "published",
-      "scheduled_date": "2026-05-08T14:00:00",
-      "content": "Spring cleaning your cat's space? Our new modular scratcher is in stock — and the reviews are purring. 🌿",
-      "engagement": { "reach": 24800, "likes": 1840, "comments": 142, "shares": 78 }
-    },
-    {
-      "id": "s-002",
-      "platform": "tiktok",
-      "campaign": "Brand Awareness",
-      "status": "published",
-      "scheduled_date": "2026-05-09T18:00:00",
-      "content": "POV: you swapped the cardboard box for a Sandy Cats bed and she still sat on the box.",
-      "engagement": { "reach": 142000, "likes": 11200, "comments": 480, "shares": 920 }
-    },
-    {
-      "id": "s-003",
-      "platform": "instagram",
-      "campaign": "Spring Sale",
-      "status": "published",
-      "scheduled_date": "2026-05-11T13:30:00",
-      "content": "Mother's Day weekend pick: a tin of treats every cat mom (and her cat) approves of.",
-      "engagement": { "reach": 31200, "likes": 2410, "comments": 198, "shares": 64 }
-    },
-    {
-      "id": "s-004",
-      "platform": "x",
-      "status": "published",
-      "scheduled_date": "2026-05-10T16:00:00",
-      "content": "Our spring sale is live. 20% off everything except food (we don't play with their nutrition).",
-      "engagement": { "reach": 8200, "likes": 320, "comments": 24, "shares": 41 }
-    },
-    {
-      "id": "s-005",
-      "platform": "instagram",
-      "campaign": "Memorial Day",
+      "id": 1,
+      "platform": "Instagram",
+      "title": "New 4Runner bumper install timelapse",
+      "scheduledDate": "2026-05-14",
       "status": "scheduled",
-      "scheduled_date": "2026-05-13T14:00:00",
-      "content": "Carousel: 5 signs your cat actually likes you (results may surprise no one)."
+      "type": "Reel",
+      "engagement": 0,
+      "reach": 0
     },
     {
-      "id": "s-006",
-      "platform": "tiktok",
-      "campaign": "BTS",
+      "id": 2,
+      "platform": "YouTube",
+      "title": "Rubicon Trail Test - Rock Sliders in Action",
+      "scheduledDate": "2026-05-18",
+      "status": "in-production",
+      "type": "Video",
+      "engagement": 0,
+      "reach": 0
+    },
+    {
+      "id": 3,
+      "platform": "Instagram",
+      "title": "Customer build spotlight - Tyler's 4Runner",
+      "scheduledDate": "2026-05-15",
       "status": "scheduled",
-      "scheduled_date": "2026-05-20T17:00:00",
-      "content": "Behind the scenes of the summer line shoot — featuring our most distinguished model, Beans."
+      "type": "Post",
+      "engagement": 0,
+      "reach": 0
     },
     {
-      "id": "s-007",
-      "platform": "linkedin",
-      "campaign": "Wholesale",
-      "status": "scheduled",
-      "scheduled_date": "2026-05-14T13:00:00",
-      "content": "We're expanding our wholesale program to 12 new boutique pet retailers this quarter. Here's what we learned scaling without losing the brand voice."
-    },
-    {
-      "id": "s-008",
-      "platform": "facebook",
-      "campaign": "Memorial Day",
-      "status": "scheduled",
-      "scheduled_date": "2026-05-23T15:00:00",
-      "content": "Memorial Day weekend sale — 25% off select bundles. Three days only."
-    },
-    {
-      "id": "s-009",
-      "platform": "instagram",
+      "id": 4,
+      "platform": "TikTok",
+      "title": "Before/After bumper transformation",
+      "scheduledDate": "2026-05-16",
       "status": "draft",
-      "scheduled_date": "2026-05-25T18:00:00",
-      "content": "Collab teaser with @petbeans — drop hint #1. (You'll want to be on the list for this one.)"
+      "type": "Short",
+      "engagement": 0,
+      "reach": 0
     },
     {
-      "id": "s-010",
-      "platform": "pinterest",
-      "campaign": "Evergreen",
-      "status": "published",
-      "scheduled_date": "2026-05-06T12:00:00",
-      "content": "10 cat-safe houseplants — pin board updated for 2026.",
-      "engagement": { "reach": 18400, "likes": 740, "comments": 12, "shares": 268 }
-    },
-    {
-      "id": "s-011",
-      "platform": "threads",
-      "status": "published",
-      "scheduled_date": "2026-05-10T20:00:00",
-      "content": "We asked our team what their cats stole this week. Receipts in the replies.",
-      "engagement": { "reach": 4200, "likes": 218, "comments": 64, "shares": 8 }
-    },
-    {
-      "id": "s-012",
-      "platform": "youtube",
-      "campaign": "Subscription Box",
-      "status": "scheduled",
-      "scheduled_date": "2026-05-28T16:00:00",
-      "content": "Unboxing the May subscription box — 8 minutes of treats, toys, and one very opinionated cat."
+      "id": 5,
+      "platform": "Instagram",
+      "title": "SEMA booth sneak peek",
+      "scheduledDate": "2026-05-20",
+      "status": "ideation",
+      "type": "Story",
+      "engagement": 0,
+      "reach": 0
     }
-  ]
+  ],
+  "recentPosts": [
+    {
+      "id": 101,
+      "platform": "Instagram",
+      "title": "Memorial Day Sale announcement",
+      "publishedDate": "2026-05-11",
+      "status": "published",
+      "type": "Post",
+      "engagement": 2840,
+      "reach": 18500,
+      "likes": 1240,
+      "comments": 87,
+      "shares": 43
+    },
+    {
+      "id": 102,
+      "platform": "YouTube",
+      "title": "Rock Slider Install Guide - Full Tutorial",
+      "publishedDate": "2026-05-08",
+      "status": "published",
+      "type": "Video",
+      "engagement": 8920,
+      "reach": 42300,
+      "likes": 1850,
+      "comments": 142,
+      "shares": 98
+    },
+    {
+      "id": 103,
+      "platform": "TikTok",
+      "title": "Offroad fails compilation",
+      "publishedDate": "2026-05-10",
+      "status": "published",
+      "type": "Short",
+      "engagement": 15600,
+      "reach": 125000,
+      "likes": 8420,
+      "comments": 340,
+      "shares": 1240
+    }
+  ],
+  "analytics": {
+    "Instagram": {
+      "followers": 24800,
+      "avgEngagement": 4.2,
+      "monthlyGrowth": 8.5
+    },
+    "YouTube": {
+      "subscribers": 12400,
+      "avgViews": 8900,
+      "monthlyGrowth": 12.3
+    },
+    "TikTok": {
+      "followers": 8900,
+      "avgEngagement": 12.8,
+      "monthlyGrowth": 22.1
+    }
+  }
 }
