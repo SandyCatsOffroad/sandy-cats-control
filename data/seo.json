@@ -1,0 +1,122 @@
+{
+  "keywords": [
+    { "keyword": "organic cat food", "url": "/collections/food", "rank": 4, "change": 2, "volume": 27100, "intent": "Transactional" },
+    { "keyword": "indoor cat toys", "url": "/collections/toys", "rank": 2, "change": 3, "volume": 14800, "intent": "Commercial" },
+    { "keyword": "best automatic litter box", "url": "/blog/best-litter-boxes", "rank": 7, "change": -1, "volume": 22200, "intent": "Commercial" },
+    { "keyword": "sandy cats brand", "url": "/", "rank": 1, "change": 0, "volume": 4400, "intent": "Navigational" },
+    { "keyword": "cat scratcher modern", "url": "/products/modern-scratcher", "rank": 5, "change": 4, "volume": 8100, "intent": "Transactional" },
+    { "keyword": "how to introduce two cats", "url": "/blog/introducing-cats", "rank": 9, "change": 1, "volume": 12100, "intent": "Informational" },
+    { "keyword": "subscription cat treats", "url": "/products/treat-box", "rank": 12, "change": -2, "volume": 5400, "intent": "Transactional" },
+    { "keyword": "luxury cat bed", "url": "/collections/beds", "rank": 3, "change": 1, "volume": 9900, "intent": "Commercial" },
+    { "keyword": "cat dental health", "url": "/blog/dental-health", "rank": 15, "change": 5, "volume": 6600, "intent": "Informational" },
+    { "keyword": "best wet food kittens", "url": "/collections/kitten", "rank": 8, "change": 0, "volume": 18100, "intent": "Commercial" }
+  ],
+  "tasks": [
+    {
+      "id": "seo-001",
+      "title": "Internal link audit on /blog/dental-health",
+      "description": "Climbing fast (+5). Add 3-4 contextual links from sibling articles to push to top 10.",
+      "priority": "high",
+      "status": "open",
+      "category": "On-page",
+      "due_date": "2026-05-14",
+      "assignee": "Lina"
+    },
+    {
+      "id": "seo-002",
+      "title": "Recover 'best automatic litter box' ranking",
+      "description": "Slipped one position. Refresh post with 2026 product roundup and updated comparison table.",
+      "priority": "high",
+      "status": "in_progress",
+      "category": "Content refresh",
+      "due_date": "2026-05-16",
+      "assignee": "Lina"
+    },
+    {
+      "id": "seo-003",
+      "title": "Schema markup for product reviews",
+      "description": "Add Review + AggregateRating schema across top 25 product pages.",
+      "priority": "medium",
+      "status": "open",
+      "category": "Technical",
+      "due_date": "2026-05-22",
+      "assignee": "Devon"
+    },
+    {
+      "id": "seo-004",
+      "title": "Core Web Vitals — fix LCP on PDPs",
+      "description": "LCP regressed to 3.1s after hero update. Roll back lazy-load timing on above-fold image.",
+      "priority": "high",
+      "status": "open",
+      "category": "Technical",
+      "due_date": "2026-05-12",
+      "assignee": "Devon"
+    },
+    {
+      "id": "seo-005",
+      "title": "Build out kitten care content hub",
+      "description": "8 articles planned. Internal linking map drafted, briefs assigned.",
+      "priority": "medium",
+      "status": "in_progress",
+      "category": "Content",
+      "due_date": "2026-06-20",
+      "assignee": "Lina"
+    },
+    {
+      "id": "seo-006",
+      "title": "Backlink outreach — Modern Cat Mag",
+      "priority": "low",
+      "status": "open",
+      "category": "Off-page",
+      "due_date": "2026-05-28",
+      "assignee": "Jordan"
+    }
+  ],
+  "content": [
+    {
+      "id": "c-001",
+      "title": "How to switch cat food without GI issues",
+      "type": "blog",
+      "target_keyword": "switching cat food",
+      "status": "drafting",
+      "publish_date": "2026-05-15",
+      "author": "Lina"
+    },
+    {
+      "id": "c-002",
+      "title": "2026 best automatic litter boxes (updated)",
+      "type": "blog",
+      "target_keyword": "best automatic litter box",
+      "status": "review",
+      "publish_date": "2026-05-16",
+      "author": "Lina"
+    },
+    {
+      "id": "c-003",
+      "title": "Kitten care 101: first 8 weeks",
+      "type": "pillar",
+      "target_keyword": "kitten care guide",
+      "status": "planned",
+      "publish_date": "2026-05-30",
+      "author": "Lina"
+    },
+    {
+      "id": "c-004",
+      "title": "Behind the brand: ethical sourcing",
+      "type": "blog",
+      "target_keyword": "ethical cat products",
+      "status": "published",
+      "publish_date": "2026-05-05",
+      "author": "Maya"
+    },
+    {
+      "id": "c-005",
+      "title": "Dental health: signs your cat needs a check-up",
+      "type": "blog",
+      "target_keyword": "cat dental health",
+      "status": "planned",
+      "publish_date": "2026-06-04",
+      "author": "Lina"
+    }
+  ]
+}
